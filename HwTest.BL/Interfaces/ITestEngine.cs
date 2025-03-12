@@ -2,5 +2,5 @@
 
 public interface ITestEngine
 {
-    void Run();
+    void Run(ITest test);
 }

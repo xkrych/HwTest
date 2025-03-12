@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HwTest.BL.Models;
+using System.Collections.ObjectModel;
 
-namespace HwTest.App.ViewModels
+namespace HwTest.App.ViewModels;
+
+public class MainViewModel
 {
-    internal class MainViewModel
+    public MainViewModel()
     {
     }
+
+    public ObservableCollection<TestStep> TestSteps { get; set; } = new();
 }

@@ -1,6 +1,6 @@
 ﻿using HwTest.BL.Interfaces;
 
-namespace HwTest.BL.Services;
+namespace HwTest.BL.Common;
 
 public class TestEngine : ITestEngine
 {

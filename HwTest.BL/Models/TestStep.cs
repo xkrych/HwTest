@@ -1,5 +1,7 @@
-﻿namespace HwTest.BL.Models;
+﻿using HwTest.BL.Interfaces;
 
-internal class TestStep
+namespace HwTest.BL.Models;
+
+public class TestStep : ITestStep
 {
 }
